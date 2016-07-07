@@ -22,7 +22,7 @@ public class Respawn : MonoBehaviour
 
     //Denne metode bliver kaldt i Checkpoint.cs
     //Set respawn positionen til position
-    public void SetCheckpoint(Vector2 position)
+    public void SetCheckpoint(Vector3 position)
     {
         //Set respawn positionen til position
         lastCheckpoint = position;

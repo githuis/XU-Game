@@ -19,7 +19,7 @@ public class PlayerMovementSmooth : MonoBehaviour {
 
 
 	// Update is called once per frame
-	void FixedUpdate () {
+	void Update () {
 
 		//Hvis right/left bevægelse er tilvalgt beregnes deltaX. Input.GetAxis er en Unity-feature, som giver bløde bevægelser.
 		if (X)
